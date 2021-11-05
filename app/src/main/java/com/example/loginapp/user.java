@@ -10,5 +10,6 @@ public class user extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
+        getSupportActionBar().setTitle("User");
     }
 }
